@@ -77,7 +77,6 @@
 
     var houseTypeAndPriceValidation = function () {
       var selectedTypeHouse = typeHouse.options[typeHouse.options.selectedIndex];
-      console.log(selectedTypeHouse);
 
       switch (selectedTypeHouse.value) {
         case window.utils.TYPE_BUNGALO:
